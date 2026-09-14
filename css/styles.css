@@ -1,14 +1,80 @@
-*{
-    box-sizing: border-box; 
+* {
+    box-sizing: border-box;
     margin: 0;
-   padding: 0;
-   list-style-type: none;  
-  text-decoration: none; color: #000;
-}
-body{
-    background-color: #F8F0ED;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(86, 85, 85);
+
 }
 
-.logo{
-    width: 120px;
+h1, h2, h3 {
+    font-family: cursive;
+    color: rgb(74, 55, 55);
+}
+
+body {
+    background-color: #F8F0ED;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    
+.padre1 {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 12px 20px;
+}
+
+.padre1 nav ul {
+    display: flex;
+
+}
+
+.hola{
+    margin: 10px;
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.productos1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.productos1 h2{
+    width: 100%;
+}
+
+.seccion{
+    width: 70%;
+}
+
+.articuloproducto {
+    width: 47%;
+    margin: 1%;
+    box-sizing: border-box;
+    border: 1px solid #DEDAD1;
+    padding: 12px;
+}
+.articuloproducto img {
+     width: 50%;
+    height: 200px;
+}
+
+.mainn{
+    display: flex;
+}
+
+.asidee{
+    margin: 0 30px;
+    width: 30%;
+}
+
+.foot{
+    margin: 0 30px;
 }
