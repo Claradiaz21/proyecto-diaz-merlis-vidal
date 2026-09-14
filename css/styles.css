@@ -8,21 +8,39 @@
 
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: cursive;
-    color: rgb(74, 55, 55);
+    color:  rgb(112, 81, 99);
 }
 
 body {
     background-color: #F8F0ED;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-    
+
+
+.verdetalle {
+    line-height: 1.9;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(213, 100, 100);
+}
+
+.precio {
+    line-height: 2;
+}
+
+.crema{
+    line-height: 1.2;
+}
+
 .padre1 {
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px;
 }
 
 .padre1 nav ul {
@@ -30,8 +48,9 @@ padding: 12px 20px;
 
 }
 
-.hola{
+.hola {
     margin: 10px;
+    2
 }
 
 .logo {
@@ -46,11 +65,11 @@ padding: 12px 20px;
     width: 100%;
 }
 
-.productos1 h2{
+.productos1 h2 {
     width: 100%;
 }
 
-.seccion{
+.seccion {
     width: 70%;
 }
 
@@ -61,20 +80,59 @@ padding: 12px 20px;
     border: 1px solid #DEDAD1;
     padding: 12px;
 }
+
 .articuloproducto img {
-     width: 50%;
+    width: 50%;
     height: 200px;
 }
 
-.mainn{
+.mainn {
     display: flex;
 }
 
-.asidee{
+.asidee {
     margin: 0 30px;
     width: 30%;
 }
 
-.foot{
+.foot {
     margin: 0 30px;
+    border-radius: 20%;
+    border: 1px solid rgba(223, 200, 225, 0.474);
+    background-color: rgba(223, 200, 225, 0.474);
+    text-align: center;
 }
+
+.padree {
+    width: 580px;
+    margin: 0 auto;
+    padding: 4% 5%;
+    background-color: rgba(223, 200, 225, 0.474);
+    border-radius: 6px;
+    display: block;
+}
+
+
+.tit {
+    font-size: large;
+    line-height: 1.5;
+}
+
+.ancho {
+    width: 100%;
+    padding: 6px;
+    display: block;
+}
+
+.ob {
+    font-size: 12px;
+    color: rgb(169, 110, 143);
+    line-height: 1.5;
+}
+
+
+.femenino {
+    font-size: medium;
+    margin: 0% 1%;
+}
+
