@@ -25,7 +25,7 @@ body {
     line-height: 1.9;
     font-weight: bold;
     text-decoration: underline;
-    color: rgb(213, 100, 100);
+    color: #A85F89;
 }
 
 .precio {
@@ -41,6 +41,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 12px 20px;
+    background-color:  #B77A9C;
 }
 
 .padre1 nav ul {
@@ -50,7 +51,23 @@ body {
 
 .hola {
     margin: 10px;
-    2
+}
+
+.hola a{
+    color: #FAF8F9
+}
+
+.centro a{
+    color:#FAF8F9;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+.productosmasvendidos{
+    text-align: center;
+}
+.productosaleatorios{
+    text-align: center;
 }
 
 .logo {
@@ -72,13 +89,20 @@ body {
 .seccion {
     width: 70%;
 }
+.seccionproductos{
+    width: 70%;
+    text-align: center;
+}
 
 .articuloproducto {
-    width: 47%;
-    margin: 1%;
+    display: inline-block;
+    width: 40%;
+    margin: 10px;
     box-sizing: border-box;
-    border: 1px solid #DEDAD1;
-    padding: 12px;
+    border: 1px solid #e5dadd;
+    background-color: #fffafa;
+    padding: 15px;
+    text-align: left;
 }
 
 .articuloproducto img {
@@ -88,11 +112,14 @@ body {
 
 .mainn {
     display: flex;
+    align-items: flex-start;
+    margin: 30px;
 }
 
 .asidee {
-    margin: 0 30px;
-    width: 30%;
+    margin: 30px;
+    width: 20%;
+    background-color: #B77A9C;
 }
 
 .foot {
@@ -105,7 +132,6 @@ body {
 
 .padree {
     width: 580px;
-    margin: 0 auto;
     padding: 4% 5%;
     background-color: rgba(223, 200, 225, 0.474);
     border-radius: 6px;
@@ -136,3 +162,60 @@ body {
     margin: 0% 1%;
 }
 
+.titulologin{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.formslogin{
+    padding: 90px;
+    background-color: rgba(223, 200, 225, 0.474);
+    width: 580px;
+    text-align: left;
+    border-radius: 8px;
+}
+.error{
+    color: rgb(169, 110, 143);
+    font-size: 10px
+}
+
+.botoningresar{
+    padding: 10px;
+    background-color: #A85F89;
+    color: white;
+    width: 160px;
+    border-radius: 8px;
+    margin-left: 120px;
+}
+.email1{
+    width: 400px;
+    height: 32px;
+}
+.contrase1{
+    width: 400px;
+    height: 32px;
+}
+.recordame{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.contenedorlogin{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.principio{
+    font-size: large;
+    line-height: 1.5;
+}
+
+.contenedordepadre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
