@@ -87,17 +87,17 @@ body {
 }
 
 .seccion {
-    width: 70%;
+    width: 100%;
 }
+
 .seccionproductos{
-    width: 70%;
     text-align: center;
 }
 
 .articuloproducto {
     display: inline-block;
-    width: 40%;
-    margin: 10px;
+    width: 32%;
+    margin: 5px;
     box-sizing: border-box;
     border: 1px solid #e5dadd;
     background-color: #fffafa;
@@ -112,14 +112,14 @@ body {
 
 .mainn {
     display: flex;
-    align-items: flex-start;
-    margin: 30px;
+    margin: 10px;
+    width: 100%;
 }
 
 .asidee {
-    margin: 30px;
     width: 20%;
     background-color: #B77A9C;
+    height: 800px;
 }
 
 .foot {
