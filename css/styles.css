@@ -38,10 +38,11 @@ body {
 
 .padre1 {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 12px 20px;
-    background-color:  #B77A9C;
+    background-color: #B77A9C;
 }
 
 .padre1 nav ul {
@@ -280,3 +281,41 @@ body {
    
 }
 
+.formulario {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.inputbuscar {
+    width: 320px;
+    height: 40px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+   
+}
+
+.inputbuscar::placeholder {
+    color: rgb(169, 150, 160);
+}
+
+.botonbuscar {
+    height: 40px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    background-color: #A85F89;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+
+.botonbuscar:hover {
+    background-color: #8f4d74;
+}
