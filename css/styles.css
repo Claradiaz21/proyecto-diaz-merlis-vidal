@@ -43,6 +43,7 @@ body {
     justify-content: space-between;
     padding: 12px 20px;
     background-color: #B77A9C;
+    border-radius: 20px;
 }
 
 .padre1 nav ul {
@@ -89,6 +90,7 @@ body {
 
 .seccion {
     width: 100%;
+    margin-left: 25px;
 }
 
 .seccionproductos{
@@ -104,6 +106,7 @@ body {
     background-color: #fffafa;
     padding: 15px;
     text-align: left;
+    border-radius: 12px;
 }
 
 .articuloproducto img {
@@ -115,12 +118,15 @@ body {
     display: flex;
     margin: 10px;
     width: 100%;
+    border-radius: 15px;
 }
 
 .asidee {
     width: 20%;
     background-color: #B77A9C;
     height: 800px;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 .foot {
@@ -318,4 +324,30 @@ body {
 
 .botonbuscar:hover {
     background-color: #8f4d74;
+}
+
+.itemresena {
+    margin-bottom: 25px;
+}
+
+.marca {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.descripcionproducto {
+    line-height: 1.4;
+    margin: 15px 0;
+}
+
+.infoproducto {
+    color: rgb(169, 110, 143);
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.tags {
+    color: #A85F89;
+    font-style: italic;
+    margin-top: 15px;
 }
