@@ -266,25 +266,18 @@ body {
 
 .reviews{
    margin-left: 3%;
-   
+   margin-right: 3%;
 }
 
 .resenas{
-   background-color: #e5dadd;
-   background-size: auto;
-   width: fit-content;
-  
-   
+   background-color: #F8F0ED;
+   width: 100%;
 }
 
 .usuario{
-   border-bottom: #A85F89;
-   border-top: #A85F89;
-   border-left: #A85F89;
-   border-right: #A85F89;
-   border-style: solid;
-   border-radius: 2 px;
-   
+   border-bottom: 2px solid #A85F89;
+    padding: 5px;
+    margin-bottom: 8px;
 }
 
 .formulario {
@@ -300,34 +293,27 @@ body {
     height: 40px;
     padding: 0 15px;
     border: none;
-    border-radius: 20px 0 0 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
-   
-}
-
-.inputbuscar::placeholder {
-    color: rgb(169, 150, 160);
+    border-radius: 20px;
 }
 
 .botonbuscar {
     height: 40px;
     padding: 0 20px;
     border: none;
-    border-radius: 0 20px 20px 0;
     background-color: #A85F89;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    
-}
-
-.botonbuscar:hover {
-    background-color: #8f4d74;
+    border-radius: 20px;
 }
 
 .itemresena {
     margin-bottom: 25px;
+    padding: 15px;
+    background-color: #e5dadd;
+    border-radius: 10px;
 }
 
 .marca {
@@ -350,4 +336,115 @@ body {
     color: #A85F89;
     font-style: italic;
     margin-top: 15px;
+}
+@media (max-width: 768px) {
+    .padre1 { 
+        flex-direction: column;
+    }
+    .logo {
+        width: 150px;
+        height: 150px;
+    }
+    .mainn {
+        flex-direction: column;
+    }
+    .asidee {
+        width: 100%;
+    }
+    .seccion{
+         width: 100%;
+    }
+    .articuloproducto{
+         width: 48%;
+    }
+    .articuloproducto img {
+         width: 80%;
+    }
+     .formslogin {
+        width: 100%;
+    }
+
+    .padree {
+        width: 100%;
+    }
+
+    .email1 {
+        width: 100%;
+    }
+
+    .contrase1 {
+        width: 100%;
+    }
+    .detalle {
+    flex-direction: column;
+    }
+
+    .detalleimagen {
+    width: 60%;
+    }
+
+    .detallecontenido {
+    width: 80%;
+    margin-left: 0;
+    }
+}
+
+@media (max-width: 420px) {
+    .padre1 {
+         flex-direction: column;
+    }
+
+    .logo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .mainn {
+        flex-direction: column;
+    }
+
+    .asidee {
+        width: 100%;
+    }
+
+    .seccion {
+        width: 100%;
+    }
+
+    .articuloproducto {
+        width: 100%;
+    }
+
+    .articuloproducto img {
+        width: 80%;
+    }
+    .formslogin {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .padree {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .email1 {
+        width: 100%;
+    }
+
+    .contrase1 {
+        width: 100%;
+    }
+
+    .botoningresar {
+        margin-left: 0;
+    }
+    .detalleimagen {
+    width: 90%;
+    }
+
+    .detallecontenido {
+    width: 90%;
+    margin-left: 0;
+    }
 }
