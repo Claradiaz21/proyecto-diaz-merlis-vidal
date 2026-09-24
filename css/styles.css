@@ -100,10 +100,8 @@ body {
 }
 
 .articuloproducto {
-    display: inline-block;
     width: 32%;
     margin: 5px;
-    box-sizing: border-box;
     border: 1px solid #e5dadd;
     background-color: #fffafa;
     padding: 15px;
@@ -257,7 +255,7 @@ body {
     flex-wrap: wrap;
     align-items: flex-start;
     flex-direction: column;
-    text-align: start;
+    text-align: left;
     justify-content: space-around;
     padding-bottom: 50px;
     margin-top: 50px;
