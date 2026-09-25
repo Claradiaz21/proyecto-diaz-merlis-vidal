@@ -8,13 +8,18 @@
 
 }
 
-h1,
-h2,
+h1 {
+    font-family: cursive;
+    color: rgb(112, 81, 99);
+}
+h2 { 
+    font-family: cursive;
+    color: rgb(112, 81, 99);
+}
 h3 {
     font-family: cursive;
     color: rgb(112, 81, 99);
 }
-
 body {
     background-color: #F8F0ED;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -195,8 +200,16 @@ body {
     color: white;
     width: 160px;
     border-radius: 8px;
-    margin-left: 120px;
+    margin-left: 0;
 }
+.botonregistrame{
+    padding: 10px;
+    background-color: #A85F89;
+    color: white;
+    width: 160px;
+    border-radius: 8px;
+    margin-left: 5px;
+} 
 
 .email1 {
     width: 400px;
@@ -232,6 +245,7 @@ body {
     flex-direction: column;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding: 0 30px;
 }
 
 .detalle {
@@ -376,7 +390,9 @@ body {
     }
 
     .formslogin {
-        width: 100%;
+        width: 80%;
+        padding: 30px;
+
     }
 
     .padree {
@@ -438,8 +454,8 @@ body {
     }
 
     .formslogin {
-        width: 100%;
-        padding: 30px;
+        width: 90%;
+        padding: 20px;
     }
 
     .padree {
@@ -465,6 +481,6 @@ body {
 
     .detallecontenido {
         width: 90%;
-        margin-left: 0;
+        margin-left: 30px;
     }
 }
