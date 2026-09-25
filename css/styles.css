@@ -146,7 +146,7 @@ body {
 
 
 .tit {
-    font-size: large;
+    font-size: 18px;
     line-height: 1.5;
 }
 
@@ -164,7 +164,7 @@ body {
 
 
 .femenino {
-    font-size: medium;
+    font-size: 16px;
     margin: 0% 1%;
 }
 
@@ -222,7 +222,7 @@ body {
 }
 
 .principio {
-    font-size: large;
+    font-size: 18px;
     line-height: 1.5;
 }
 
@@ -231,6 +231,7 @@ body {
     align-items: center;
     flex-direction: column;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .detalle {
