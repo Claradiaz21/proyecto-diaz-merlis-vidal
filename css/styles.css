@@ -231,7 +231,9 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 20px;
     margin-bottom: 20px;
+    padding: 0 30px;
 }
 
 .principio {
@@ -400,7 +402,9 @@ body {
     }
 
     .padree {
-        width: 100%;
+        width: 80%;
+        padding: 30px;
+
     }
 
     .email1 {
@@ -463,8 +467,8 @@ body {
     }
 
     .padree {
-        width: 100%;
-        padding: 30px;
+        width: 90%;
+        padding: 20px;
     }
 
     .email1 {
