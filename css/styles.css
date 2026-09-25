@@ -358,6 +358,10 @@ body {
     margin-top: 15px;
 }
 
+.cuenta{
+    line-height: 2;
+}
+
 @media (max-width: 768px) {
     .padre1 {
         flex-direction: column;
