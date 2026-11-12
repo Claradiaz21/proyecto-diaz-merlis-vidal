@@ -1,15 +1,14 @@
-let queryString = location.search;
-let queryStringObj = new URLSearchParams(queryString);
- 
-let busqueda = queryStringObj.get("busqueda");
- 
+let querySearch = new URLSearchParams(location.search);
+let busqueda = querySearch.get("busqueda");
 let titulo = document.querySelector(".productosaleatorios");
- 
-if (!queryStringObj.has("busqueda") || busqueda === "") {
-    titulo.innerText = "El campo de búsqueda no puede estar vacío.";
+let mensaje = "";
+if (querySearch.has("busqueda") === false || busqueda === "") {
+    mensaje = "El campo de búsqueda no puede estar vacío.";
 } else if (busqueda.length < 3) {
-    titulo.innerText = "La búsqueda debe tener al menos 3 caracteres.";
+    mensaje = "La búsqueda debe tener al menos 3 caracteres.";
 } else {
-    titulo.innerText = `Resultados de búsqueda para "${busqueda}"`;
+    mensaje = "Resultados de búsqueda para: " + busqueda;
 }
- 
+
+titulo.innerText = mensaje;
+
