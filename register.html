@@ -21,56 +21,60 @@
                 <li class="hola"><a href="./register.html">Registrarme</a></li>
             </ul>
         </nav>
-        <form action="./search-results.html" method="get" class="formulario">
+         <form action="./search-results.html" method="get" class="formulario">
             <input type="text" name="busqueda" value="" placeholder="Buscar productos..." class="inputbuscar">
             <button type="submit" class="botonbuscar">Buscar</button>
-            <p class="errorbuscador"></p>
         </form>
+        <p class="errorbuscador"></p>
     </header>
-    <main>
-        <section class="contenedordepadre">
+
+    <section class="contenedordepadre">
         <div>
             <h2 class="titulologin"> BIENVENIDO</h2>
         </div>
-        <form action="./index.html" method="get" class="padree">
-            <div class=" tit">
+        <form action="./login.html" method="POST" class="padree">
+            <div class="tit">
                 <label class="tit" for="mail">Email:</label>
-                <input type="email" name="mail" value="" placeholder="Ingresá tu mail" class="ancho">
-                <p class="ob"> Obligatorio.</p>
+                <input type="email" id="mail" name="mail" value="" placeholder="Ingresá tu mail" class="ancho">
+                <p class="ob erroremail"></p>
             </div>
 
-            <div class=" tit">
+            <div class="tit">
                 <label class="tit" for="pass">Contraseña:</label>
-                <input type="password" name="pass" value="" placeholder="Ingresá tu contraseña" class="ancho">
-                <p class="ob"> Obligatorio.</p>
+                <input type="password" id="pass" name="pass" value="" placeholder="Ingresá tu contraseña" class="ancho">
+                <p class="ob errorpass"></p>
             </div>
 
-            <div class=" tit">
-                <label class="tit" for="pass">Repetir:</label>
-                <input type="password" name="pass2" value="" placeholder="Repetir contraseña" class="ancho">
-                <p class="ob"> Obligatorio.</p>
+            <div class="tit">
+                <label class="tit" for="pass2">Repetir contraseña:</label>
+                <input type="password" id="pass2" name="pass2" value="" placeholder="Repetir contraseña" class="ancho">
+                <p class="ob errorpass2"></p>
             </div>
 
-            <div class=" tit">
+            <div class="tit">
                 <button type="submit" class="botonregistrame">Registrarme</button>
             </div>
 
-            <div class=" tit">
-                <input type="checkbox" name="Registro" value="Acepto-los-terminos-y-condiciones">
-                <label class="femenino"> Acepto los terminos y condiciones </label>
+            <div class="tit">
+                <input type="checkbox" id="terminos" name="terminos" value="acepto">
+                <label class="femenino" for="terminos">Acepto términos y condiciones</label>
             </div>
 
             <div>
-                <a href="./login.html"> Ya tengo una cuenta </a>
+                <a href="./login.html">Ya tengo una cuenta</a>
             </div>
         </form>
     </section>
-    </main>
+
 
     <footer>
         <p class="foot"> MCD Skin Lab. Equipo: Mia Merlis, Clara Diaz, Delfina Vidal</p>
     </footer>
     <script src="js/main.js"> </script>
+    <script src="js/categorias.js"> </script>
+    <script src="js/index.js"> </script>
+    <script src="./js/register.js"></script>
+
 </body>
 
 </html>

@@ -12,3 +12,4 @@ formulario.addEventListener("submit", function (e) {
         errorBuscar.innerText = "El campo de búsqueda debe tener al menos 3 caracteres";
     }
 });
+
