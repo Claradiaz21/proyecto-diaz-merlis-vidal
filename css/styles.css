@@ -367,7 +367,11 @@ body {
     line-height: 2;
 }
 
-
+.errorbuscador {
+    width: 100%;
+    text-align: center;
+    color: #FAF8F9;
+}
 
 @media (max-width: 768px) {
     .padre1 {
