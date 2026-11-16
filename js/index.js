@@ -5,8 +5,11 @@ window.addEventListener("load", function () {
         return response.json();
     })
     .then(function (data) {
-        for(let i = 0; i < data.products.length; i++) {
-            smartphones.innerHTML += `
+
+        let celus = "";
+
+        for(let i = 0; i < 10; i++) {
+            celus += `
             <article class="articuloproducto">
             <img src="${data.products[i].thumbnail}" alt="${data.products[i].title}">
             <h3>${data.products[i].title}</h3>
@@ -15,6 +18,9 @@ window.addEventListener("load", function () {
             <a href="product.html?id=${data.products[i].id}" class="verdetalle"> Ver detalle </a>
             </article>`;
         }
+
+        smartphones.innerHTML = celus;
+
     })
     .catch(function (error) {
         console.log("El error es: " + error);
@@ -25,8 +31,9 @@ window.addEventListener("load", function () {
         return response.json();
     })
     .then(function (data) {
-        for (let i = 0; i < data.products.length; i++) {
-            groceries.innerHTML += `
+        let frutas = "";
+        for (let i = 0; i < 10; i++) {
+            frutas += `
             <article class="articuloproducto">
             <img src="${data.products[i].thumbnail}" alt="${data.products[i].title}">
             <h3>${data.products[i].title}</h3>
@@ -35,6 +42,7 @@ window.addEventListener("load", function () {
             <a href="product.html?id=${data.products[i].id}" class="verdetalle"> Ver detalle </a>
             </article>`;
         }
+        groceries.innerHTML = frutas;
     })
     .catch(function (error) {
         console.log("El error es: " + error);
