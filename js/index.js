@@ -19,7 +19,7 @@ window.addEventListener("load", function () {
             </article>`;
         }
 
-        smartphones.innerHTML = celus;
+        smartphones.innerHTML += celus;
 
     })
     .catch(function (error) {
@@ -42,7 +42,7 @@ window.addEventListener("load", function () {
             <a href="product.html?id=${data.products[i].id}" class="verdetalle"> Ver detalle </a>
             </article>`;
         }
-        groceries.innerHTML = frutas;
+        groceries.innerHTML += frutas;
     })
     .catch(function (error) {
         console.log("El error es: " + error);

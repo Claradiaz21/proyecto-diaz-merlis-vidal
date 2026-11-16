@@ -50,11 +50,18 @@ body {
     background-color: #B77A9C;
     border-radius: 20px;
 }
-
+.padre1 nav {
+    width: 30%;
+}
+.padre1 h1 {
+    width: 30%;
+}
 .padre1 nav ul {
     display: flex;
-
+    justify-content: flex-end;
+    flex-wrap: wrap;
 }
+
 
 .hola {
     margin: 10px;
@@ -311,6 +318,7 @@ body {
     justify-content: center;
     margin-top: 5px;
     margin-bottom: 15px;
+    flex-wrap: wrap;
 }
 
 .inputbuscar {
@@ -377,6 +385,12 @@ body {
     .padre1 {
         flex-direction: column;
     }
+    .padre1 nav {
+        width: 100%;
+    }
+    .padre1 h1 {
+        width: 100%;
+    }
 
     .logo {
         width: 150px;
@@ -442,6 +456,12 @@ body {
 @media (max-width: 420px) {
     .padre1 {
         flex-direction: column;
+    }
+    .padre1 nav {
+        width: 100%;
+    }
+    .padre1 h1 {
+        width: 100%;
     }
 
     .logo {
