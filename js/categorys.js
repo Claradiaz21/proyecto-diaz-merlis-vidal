@@ -9,15 +9,19 @@ window.addEventListener("load", function () {
     .then(function (informacion) {
         console.log(informacion);
 
+        let categorias = "";
+
         for (let i = 0; i < informacion.length; i++) {
             let categoria = informacion[i];
 
-            listaCategorias.innerHTML += `
+            categorias += `
             <li class="centro">
             <a href="./category.html?categoria=${categoria.slug}"> ${categoria.name} </a>
             </li>
             `;
         }
+
+        listaCategorias.innerHTML = categorias;
     })
     .catch(function (error) {
         console.log("El error es: " + error);

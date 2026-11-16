@@ -40,10 +40,11 @@ window.addEventListener('load', function () {
             }
             tags.innerText = textoTags;
 
+            let textoReviews = "";
             for (let i = 0; i < data.reviews.length; i++) {
                 let review = data.reviews[i];
 
-                listaReviews.innerHTML += `
+                textoReviews += `
                     <li class="itemresena">
                         <p class="usuario">Usuario: ${review.reviewerName}</p>
                         <p>Rating: ${review.rating}/5</p>
@@ -52,6 +53,7 @@ window.addEventListener('load', function () {
                     </li>
                 `;
             }
+            listaReviews.innerHTML = textoReviews;
         })
         .catch(function (error) {
             console.log("El error es: " + error);

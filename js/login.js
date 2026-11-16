@@ -4,8 +4,10 @@ let campoContrasena = document.querySelector(".contrase1");
 let errorEmail = document.querySelector(".erroremail");
 let errorContrasena = document.querySelector(".errorcontrasena");
 
-
 formlogin.addEventListener("submit", function (e) {
+    errorEmail.innerText = "";
+    errorContrasena.innerText = "";
+
     if (campoEmail.value === "") {
         e.preventDefault();
         errorEmail.innerText = "El campo de email no puede estar vacío";
