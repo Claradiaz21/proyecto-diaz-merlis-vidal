@@ -525,3 +525,11 @@ body {
     color: #FAF8F9;
     font-size: 14px;
 }
+.logout {
+    margin-left: 10px;
+    padding: 4px 12px;
+    border: 1px solid #FAF8F9;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
