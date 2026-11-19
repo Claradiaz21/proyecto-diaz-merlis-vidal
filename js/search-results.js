@@ -3,9 +3,9 @@ window.addEventListener("load", function () {
     let contenedor = document.querySelector(".resultados");
     let query = new URLSearchParams(location.search);
     let busqueda = query.get("busqueda");
-   
+
     titulo.innerText = `Resultados de búsqueda para: ${busqueda}`;
-    
+
     fetch(`https://dummyjson.com/products/search?q=${busqueda}`)
         .then(function (response) {
             return response.json();
