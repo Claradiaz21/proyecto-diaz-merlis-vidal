@@ -25,7 +25,7 @@ window.addEventListener("load", function () {
                         <h3>${data.products[i].title}</h3>
                         <p class="crema">${data.products[i].description}</p>
                         <p class="precio">$${data.products[i].price}</p>
-                        <a href="product.html?id=${data.products[i].id}" class="verdetalle"> Ver detalle </a>
+                        <a href="./product.html?id=${data.products[i].id}" class="verdetalle"> Ver detalle </a>
                     </article>`;
             }
 
