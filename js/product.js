@@ -19,7 +19,6 @@ window.addEventListener('load', function () {
             return response.json();
         })
         .then(function (data) {
-            console.log(data);
 
             imagen.innerHTML = `<img src="${data.thumbnail}" alt="${data.title}">`;
             nombre.innerText = data.title;
@@ -36,7 +35,9 @@ window.addEventListener('load', function () {
 
             let textoTags = "";
             for (let i = 0; i < data.tags.length; i++) {
-                textoTags += "#" + data.tags[i] + " ";
+                if (i < 3) {
+                    textoTags += "#" + data.tags[i] + " ";
+                }
             }
             tags.innerText = textoTags;
 

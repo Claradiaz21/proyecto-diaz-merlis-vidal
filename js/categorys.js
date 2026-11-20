@@ -7,7 +7,6 @@ window.addEventListener("load", function () {
             return response.json();
         })
         .then(function (informacion) {
-            console.log(informacion);
 
             let categorias = "";
 

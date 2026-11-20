@@ -25,25 +25,25 @@
         <form action="./search-results.html" method="get" class="formulario">
             <input type="text" name="busqueda" value="" placeholder="Buscar productos..." class="inputbuscar">
             <button type="submit" class="botonbuscar">Buscar</button>
+            <p class="errorbuscador"></p>
         </form>
-        <p class="errorbuscador"></p>
+        
     </header>
     <main>
         <section class="contenedorlogin">
             <div>
                 <h2 class="titulologin"> BIENVENIDO</h2>
             </div>
-            <form action="./index.html" method="POST" class="formslogin">
+            <form action="./index.html" method="get" class="formslogin">
                 <div>
                     <label for="email" class="principio">Email:</label>
-                    <input type="email" id="email" placeholder="Ingrese su email" name="email" value="" class="email1">
+                    <input type="email" id="email" placeholder="Ingrese su email" value="" class="email1">
                     <p class="error erroremail"></p>
                 </div>
 
                 <div>
                     <label for="contrasena" class="principio">Contraseña:</label>
-                    <input type="password" id="contrasena" placeholder="Ingrese su contraseña" name="contrasena"
-                        value="" class="contrase1">
+                    <input type="password" id="contrasena" placeholder="Ingrese su contraseña" value="" class="contrase1">
                     <p class="error errorcontrasena"></p>
                 </div>
 

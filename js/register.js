@@ -18,12 +18,12 @@ window.addEventListener('load', function () {
         errorPass.innerText = "";
         errorPass2.innerText = "";
 
-        if (email.value == "") {
+        if (email.value === "") {
             errorEmail.innerText = "El email es obligatorio";
             hayErrores = true;
         }
 
-        if (pass.value == "") {
+        if (pass.value === "") {
             errorPass.innerText = "La contraseña es obligatoria";
             hayErrores = true;
         } else if (pass.value.length < 6) {
@@ -31,12 +31,12 @@ window.addEventListener('load', function () {
             hayErrores = true;
         }
 
-        if (pass.value != pass2.value) {
+        if (pass.value !== pass2.value) {
             errorPass2.innerText = "Las contraseñas no coinciden";
             hayErrores = true;
         }
 
-        if (hayErrores == false) {
+        if (hayErrores === false) {
             this.submit();
         }
     });

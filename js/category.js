@@ -14,7 +14,6 @@ window.addEventListener("load", function () {
             return response.json();
         })
         .then(function (data) {
-            console.log(data);
 
             let tarjetas = "";
 
